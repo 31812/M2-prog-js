@@ -1,4 +1,8 @@
 
+function argumentsAreHandy(shoutout){
+    argumentsAreHandy("wat de flip");
+}
+
 function superMooieGlobaalFunction(){
     console.log("ik ben global")
     console.log("dus je mag mij overal aanroepen")
