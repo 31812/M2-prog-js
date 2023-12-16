@@ -53,14 +53,20 @@ class App
     runApplication()
     {
         console.log("hello world!")
-        superMooieGlobaalFunction()
+    }
+
+    newClassFunction(){
+        console.log("Hello world in de newClassFunction")
+        anotherFunctionWithArguments(aArgument)
+        {
+            console.log("kom maar met je argument");
+            console.log("hier:");
+            console.log(aArgument);
+        }
     }
 }
 
-function aanroepVoorbeeld(){
-
-}
-
 let app = new App()
-app.runApplication()
-aanroepVoorbeeld()
+app.newClassFunction()
+
+app.anotherFunctionWithArguments("mijn argument is iets slims")
