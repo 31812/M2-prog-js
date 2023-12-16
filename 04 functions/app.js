@@ -57,16 +57,25 @@ class App
 
     newClassFunction(){
         console.log("Hello world in de newClassFunction")
-        anotherFunctionWithArguments(aArgument)
-        {
-            console.log("kom maar met je argument");
-            console.log("hier:");
-            console.log(aArgument);
-        }
+    }
+
+    Mario()
+    {
+        console.log("MARIO!");
+    }
+
+    Zehahaha()
+    {
+        return "ZEHAHAHAHA";
+    }
+
+    Math(m1,m2)
+    {
+
     }
 }
 
-let app = new App()
-app.newClassFunction()
-
-app.anotherFunctionWithArguments("mijn argument is iets slims")
+let app = new App();
+app.newClassFunction();
+app.Mario();
+console.log(app.Zehahaha());
