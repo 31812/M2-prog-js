@@ -10,8 +10,7 @@ class App
             const element = array[i];
             console.log(element);
         }
-
-        artiesten.push("Jay-z", "Michael Struiken", "Illius Sokmen")
+    
         console.log(artiesten);
         console.log(nummers)
     }
