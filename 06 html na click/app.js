@@ -35,6 +35,14 @@ class App {
             document.body.appendChild(para4);
         };
         uiButton2.addEventListener("click", localeFunction4);
+
+        document.getElementById("myDiv").addEventListener("click", function() {
+            let h1Element = document.createElement("h1");
+            h1Element.textContent = "Clicked a div";
+            document.body.appendChild(h1Element);
+
+            this.style.backgroundColor = "lightgreen";
+        });
     }
 }
 
