@@ -9,6 +9,10 @@ class App
 class Greet
 {
     constructor(){
+    }
+
+    showGreeting()
+    {
         console.log("Greetings!")
     }
 }
@@ -16,6 +20,9 @@ class Greet
 class Goodbye
 {
     constructor(){
+    }
+
+    showBye(){
         console.log("Bye Bye")
     }
 }
@@ -24,6 +31,14 @@ let bye = new Goodbye()
 let greet = new Greet()
 let app = new App()
 app.runApplication()
-new Greet()
-new Greet()
-new Greet()
+greet.showGreeting()
+bye.showBye()
+
+greet.showGreeting()
+bye.showBye()
+
+greet.showGreeting()
+bye.showBye()
+
+greet.showGreeting()
+bye.showBye()
